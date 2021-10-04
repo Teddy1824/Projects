@@ -1,6 +1,7 @@
 body {
   background-color: rgb(17, 94, 97);
   background-image: url(andrew-neel-308138-unsplash.jpg);
+  background-size: cover;
 }
 
 li {
