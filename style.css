@@ -1,6 +1,6 @@
 body {
   background-color: rgb(17, 94, 97);
-  background-image: url(Tech-sector.jpg);
+  background-image: url(andrew-neel-308138-unsplash.jpg);
 }
 
 li {
@@ -37,5 +37,32 @@ h1 {
   text-align: center;
   background-color: whitesmoke;
   border-radius: 16px;
+  color:black
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 5%;
+}
+
+.number2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border-radius: 5%;
+}
+
+.number3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4%; 
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
