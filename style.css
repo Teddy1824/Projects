@@ -37,7 +37,8 @@ h1 {
   text-align: center;
   background-color: whitesmoke;
   border-radius: 16px;
-  color:black
+  color: black;
+  font-family: sans-serif;
 }
 
 .center {
@@ -60,9 +61,13 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 4%; 
+  border-radius: 4%;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+h3 {
+  font-size: x-large;
+}
+
+p {
+  font-size: x-large;
+}
