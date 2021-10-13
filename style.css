@@ -1,6 +1,6 @@
 body {
   background-color: rgb(17, 94, 97);
-  background-image: url(andrew-neel-308138-unsplash.jpg);
+  background-image: url(2.jpg);
   background-size: cover;
 }
 
@@ -79,6 +79,7 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
 }
 
 .flip-card {
@@ -135,4 +136,26 @@ body {
   justify-content: space-evenly;
   gap: 40px;
   row-gap: 10px;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space:nowrap;
+  letter-spacing: .15em;
+  animation: typing 1.5s steps(50, end),
+  blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+ from { width: 0}
+ to { width: 100%} 
+}
+
+@keyframes blink-caret {
+  from,to { border-color: transparent }
+  100% {border-color: orange;}
+}
+
+.fieldset2 {
+  text-align: center;
 }
